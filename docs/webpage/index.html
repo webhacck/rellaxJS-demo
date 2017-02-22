@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rellax.jsサンプルデモ（その２）</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>サンプルデモサイト</h1>
+            
+            
+            <!-------------------------------------------------->
+            <!------------ Rellax.jsを適用 --------------------->
+            <h3 class="rella" data-rellax-spee="7">これは、Rellax.jsの練習用Webページです</h3>
+        </div>
+    </header>
+    
+    
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>サンプルテキストサンプルテキスト</h2>
+                    <p class="lead">これは、Rellax.jsのサンプルデモです</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <aside class="callout">
+        <div class="text-vertical-center">
+            
+            
+            <!-------------------------------------------------->
+            <!------------ Rellax.jsを適用 --------------------->
+            <h1 class="rellax one" data-rellax-speed="5">サンプルタイトル</h1>
+        </div>
+    </aside>
+    
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Work</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <img class="img-portfolio img-responsive" src="img/01.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            
+                            
+                            <!-------------------------------------------------->
+                            <!------------ Rellax.jsを適用 --------------------->
+                            <div class="rella portfolio-item" data-rellax-spee="7">
+                                <img class="img-portfolio img-responsive" src="img/02.jpg">
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="col-md-6">
+                          
+                          
+                            <!-------------------------------------------------->
+                            <!------------ Rellax.jsを適用 --------------------->
+                            <div class="rella portfolio-item" data-rellax-spee="6">
+                                <img class="img-portfolio img-responsive" src="img/03.jpg">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <img class="img-portfolio img-responsive" src="img/04.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>サンプルデモサイト</strong></h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">&copy; サンプルデモサイト 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+    <script>
+      var rellax = new Rellax('.rellax', {
+        
+        // 中央寄せ
+        center: true
+        
+      });
+    </script>
+</body>
+</html>
