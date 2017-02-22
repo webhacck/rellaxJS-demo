@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Rellax.jsサンプルデモ（その１）</title>
+    <style>
+      body {
+            width: 70%;
+            margin: 200px auto 200px auto;
+      }
+      
+      div {
+            position: relative;
+      }
+      
+      /* 4種類の円をデザイン */
+      .ball1 {
+            width: 40%;
+            padding-top: 40%;
+            background-color: #f00;
+            opacity: 0.5;
+            border-radius: 50%;
+      }
+      
+      .ball2 {
+            width: 70%;
+            padding-top: 70%;
+            background-color: #0f0;
+            opacity: 0.5;
+            border-radius: 50%;
+            top: -150px;
+            left: 30%;
+      }
+      
+      .ball3 {
+            width: 80%;
+            padding-top: 80%;
+            border-radius: 50%;
+            top: -200px;
+            background-color: #00f;
+            opacity: 0.5;
+      }
+      
+      .ball4 {
+            width: 60%;
+            padding-top: 60%;
+            border-radius: 50%;
+            top: -100px;
+            left: 40%;
+            background-color: #a0f;
+            opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- それぞれのdiv要素にRellax.jsを適用 -->
+    <div class="rellax ball1" data-rellax-speed="-7"></div>
+    <div class="rellax ball2" data-rellax-speed="0"></div>
+    <div class="rellax ball3" data-rellax-speed="5"></div>
+    <div class="rellax ball4" data-rellax-speed="10"></div>
+    
+
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+    <script>
+      var rellax = new Rellax('.rellax');
+      
+    </script>
+  </body>
+</html>
